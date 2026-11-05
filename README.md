@@ -403,9 +403,10 @@ The standards for the training series are documented in:
 - [Security Standard](SECURITY.md)
 - [Cost Standard](COSTS.md)
 - [AWS Budget Guide](docs/aws-budget-guide.md)
--d-source-control.md
-- docs/tagging-and-naming.md
-- labs/README.md
+- [HCP Terraform Variables Guide](docs/hcp-terraform-variables.md)
+- [Terraform State and Source Control](docs/state-and-source-control.md)
+- [Tagging and Naming Standard](docs/tagging-and-naming.md)
+- [Lab Index](labs/README.md)
 
 ## Important Training Notice
 
