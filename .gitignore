@@ -1,0 +1,34 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Environment-specific Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Do NOT ignore the Terraform provider dependency lock file.
+# Infrastructure lab repositories should commit this file.
+!.terraform.lock.hcl
