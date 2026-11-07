@@ -404,6 +404,8 @@ The standards for the training series are documented in:
 - [Cost Standard](COSTS.md)
 - [AWS Budget Guide](docs/aws-budget-guide.md)
 - [HCP Terraform Variables Guide](docs/hcp-terraform-variables.md)
+- [HCP Terraform Setup Guide](docs/hcp-terraform-setup.md)
+- [AWS Training Identity Guide](docs/aws-training-identity.md)
 - [Terraform State and Source Control](docs/state-and-source-control.md)
 - [Tagging and Naming Standard](docs/tagging-and-naming.md)
 - [Lab Index](labs/README.md)

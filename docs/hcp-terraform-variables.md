@@ -62,7 +62,6 @@ private_subnet_ids
 allowed_http_cidr
 instance_type
 project_name
-enable_nat_gateway
 enable_custom_domain
 domain_name
 hosted_zone_id
@@ -151,6 +150,8 @@ The secret access key must be treated as sensitive.
 
 Do not define AWS credentials as ordinary Terraform variables merely so Terraform can pass them into the provider.
 
+The HCP Terraform **Add variable** form defaults to **Terraform variable**. When adding AWS credentials, select **Environment variable** before saving. A credential saved as a Terraform variable is not seen by the AWS provider, and the plan fails with `No valid credential sources found`.
+
 ## Why This Separation Matters
 
 Consider two concepts:
@@ -191,7 +192,7 @@ Compare
 Authenticated AWS account
 ```
 
-If the accounts do not match, the deployment should fail when practical.
+If the accounts do not match, the AWS provider setting `allowed_account_ids` stops the run before any AWS change. A `check` block alone only produces a warning, so it is not used as the enforcing control.
 
 This is designed to reduce the risk of accidentally deploying training infrastructure into the wrong AWS account.
 

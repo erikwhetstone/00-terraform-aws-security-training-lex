@@ -136,6 +136,8 @@ Terraform should compare the learner-provided expected account ID with the authe
 
 The deployment should fail when the values do not match.
 
+Labs enforce this with the AWS provider setting `allowed_account_ids = [var.expected_aws_account_id]`, which stops Terraform before it makes any AWS change. A `check` block can repeat the comparison as a readable message, but a failed `check` block only produces a warning, so it must never be the only control.
+
 This guardrail helps prevent accidental creation of training resources in the wrong AWS account.
 
 The expected account ID is environment-specific and must not be hardcoded into a public repository.

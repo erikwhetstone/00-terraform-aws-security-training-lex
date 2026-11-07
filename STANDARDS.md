@@ -259,7 +259,6 @@ private_subnet_ids
 allowed_http_cidr
 instance_type
 project_name
-enable_nat_gateway
 enable_custom_domain
 domain_name
 hosted_zone_id
