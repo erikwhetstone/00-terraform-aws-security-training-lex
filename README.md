@@ -328,9 +328,9 @@ Each infrastructure lab lives in its own repository.
 Examples:
 
 ```text
-terraform-aws-security-training
-terraform-aws-network-foundation-lab
-terraform-aws-ec2-web-lab
+00-terraform-aws-security-training
+01-terraform-aws-network-foundation-lab
+02-terraform-aws-ec2-web-lab
 ```
 
 This repository provides the curriculum and common standards.

@@ -4,6 +4,8 @@ This directory provides the curriculum sequence for the Terraform AWS Security T
 
 Each infrastructure lab is maintained in its own Git repository.
 
+Repository names begin with the lab number, such as `01-`, so they sort in curriculum order on GitHub.
+
 The labs are designed to build on one another while still explaining their individual architecture, security controls, costs, lifecycle, and cleanup requirements.
 
 ## Lab 0 - Security and Cost Foundations
@@ -11,8 +13,10 @@ The labs are designed to build on one another while still explaining their indiv
 Repository:
 
 ```text
-terraform-aws-security-training
+00-terraform-aws-security-training
 ```
+
+Link: [github.com/lshillingford/00-terraform-aws-security-training](https://github.com/lshillingford/00-terraform-aws-security-training)
 
 Focus:
 
@@ -37,8 +41,12 @@ It establishes the standards used by the rest of the series.
 Repository:
 
 ```text
-terraform-aws-network-foundation-lab
+01-terraform-aws-network-foundation-lab
 ```
+
+Link: [github.com/lshillingford/01-terraform-aws-network-foundation-lab](https://github.com/lshillingford/01-terraform-aws-network-foundation-lab)
+
+Status: released, version 1.0.1.
 
 Focus:
 
@@ -75,8 +83,10 @@ The lab outputs network identifiers for use by later labs.
 Repository:
 
 ```text
-terraform-aws-ec2-web-lab
+02-terraform-aws-ec2-web-lab
 ```
+
+Status: in development. The link will be added when the lab is released.
 
 Focus:
 

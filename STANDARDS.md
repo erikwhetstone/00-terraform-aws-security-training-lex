@@ -27,14 +27,14 @@ Each infrastructure lab should live in its own Git repository.
 Examples:
 
 ```text
-terraform-aws-network-foundation-lab
-terraform-aws-ec2-web-lab
+01-terraform-aws-network-foundation-lab
+02-terraform-aws-ec2-web-lab
 ```
 
 The curriculum repository is:
 
 ```text
-terraform-aws-security-training
+00-terraform-aws-security-training
 ```
 
 The curriculum repository contains standards and learning guidance. It does not deploy AWS infrastructure.
@@ -44,7 +44,7 @@ The curriculum repository contains standards and learning guidance. It does not 
 Use the following structure when applicable:
 
 ```text
-terraform-aws-<lab-name>/
+NN-terraform-aws-<lab-name>/
 |-- .gitignore
 |-- .terraform.lock.hcl
 |-- README.md
