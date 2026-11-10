@@ -46,7 +46,7 @@ Repository:
 
 Link: [github.com/lshillingford/01-terraform-aws-network-foundation-lab](https://github.com/lshillingford/01-terraform-aws-network-foundation-lab)
 
-Status: released, version 1.0.1.
+Status: released, version 1.0.2.
 
 Focus:
 
@@ -86,7 +86,9 @@ Repository:
 02-terraform-aws-ec2-web-lab
 ```
 
-Status: in development. The link will be added when the lab is released.
+Link: [github.com/lshillingford/02-terraform-aws-ec2-web-lab](https://github.com/lshillingford/02-terraform-aws-ec2-web-lab)
+
+Status: released, version 1.0.0.
 
 Focus:
 
